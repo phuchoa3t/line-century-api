@@ -11,5 +11,5 @@ var job = new cron.CronJob(
     false,
     'Asia/Ho_Chi_Minh'
 );
-crawlService.crawl();
+// crawlService.crawl();
 module.exports = job;
